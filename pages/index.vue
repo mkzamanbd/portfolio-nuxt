@@ -3,7 +3,7 @@
 		<!-- header -->
 		<TopHeader />
 		<!-- About my background -->
-		<AboutInformation />
+		<AboutInfo />
 		<!-- Portfolios -->
 		<Portfolio />
 		<!-- Tools -->
