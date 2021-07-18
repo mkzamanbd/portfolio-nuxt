@@ -73,8 +73,6 @@ export default {
           lang: 'en',
         },
     },
-	globalName:'portfolio',
-
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
 		publicPath: '/portfolio',
