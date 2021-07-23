@@ -1,4 +1,4 @@
-# zamanz.github.io
+# portfolio website
 
 ## Build Setup
 
