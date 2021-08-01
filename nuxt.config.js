@@ -53,6 +53,8 @@ export default {
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
+        // https://go.nuxtjs.dev/eslint
+        '@nuxtjs/eslint-module',
         // https://go.nuxtjs.dev/axios
         "@nuxtjs/axios",
 		// https://pwa.nuxtjs.org/
@@ -66,6 +68,7 @@ export default {
         meta: {
           title: 'Kamruzzaman | Web & Android Application Developer',
           author: 'Zaman',
+          mobileAppIOS: true
         },
         manifest: {
           name: 'Kamruzzaman',
@@ -77,6 +80,6 @@ export default {
     build: {
 		publicPath: '/portfolio',
 	},
-	//generate for static site
-	//target: 'static'
+	// generate for static site
+	target: 'static'
 };

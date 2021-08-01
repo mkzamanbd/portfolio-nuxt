@@ -13,7 +13,12 @@
 <script>
 export default {
     name: "Error",
-    props:["error"],
+    props:{
+        error:{
+            default: null,
+            type: [Object]
+        },
+    },
     created(){
         console.log("[Error Details: ]",this.error);
     }
