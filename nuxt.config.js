@@ -17,24 +17,17 @@ export default {
         ],
         link: [
             { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
+            { rel: "apple-touch-icon", type: "image/x-icon", href: "/favicon.png" },
             {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             }
         ],
         script: [
             {
                 type: "text/javascript",
-                src: "https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            },
-            {
-                type: "text/javascript",
-                src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            },
-            {
-                type: "text/javascript",
-                src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             }
         ]
     },
@@ -66,14 +59,14 @@ export default {
 
 	pwa: {
         meta: {
-          title: 'Kamruzzaman | Web & Android Application Developer',
-          author: 'Zaman',
-          mobileAppIOS: true
+            title: 'Kamruzzaman | Web & Android Application Developer',
+            author: 'Zaman',
+            mobileAppIOS: true
         },
         manifest: {
-          name: 'Kamruzzaman',
-          short_name: 'Kamruzzaman',
-          lang: 'en',
+            name: 'Kamruzzaman',
+            short_name: 'Zaman',
+            lang: 'en',
         },
     },
     // Build Configuration: https://go.nuxtjs.dev/config-build
